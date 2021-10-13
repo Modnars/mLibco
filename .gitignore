@@ -1,0 +1,44 @@
+# Custom ignore files
+build/
+example_closure
+example_cond
+example_copystack
+example_echocli
+example_echosvr
+example_poll
+example_setenv
+example_specific
+example_thread
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
