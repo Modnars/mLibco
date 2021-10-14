@@ -24,7 +24,6 @@
 #define R8  12
 #define R9  13
 
-//----- --------
 // 32 bit
 // | regs[0]: ret |
 // | regs[1]: ebx |
@@ -40,7 +39,6 @@ enum {
     kESP = 7,
 };
 
-//-------------
 // 64 bit
 // low  | regs[0]:  r15 |
 //      | regs[1]:  r14 |

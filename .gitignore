@@ -1,5 +1,5 @@
 # Custom ignore files
-build/
+*build/
 example_closure
 example_cond
 example_copystack
