@@ -8,7 +8,7 @@ coctx_swap:
 
 #if defined(__i386__)
     movl 4(%esp), %eax
-    movl %esp,  28(%eax)
+    movl %esp, 28(%eax)
     movl %ebp, 24(%eax)
     movl %esi, 20(%eax)
     movl %edi, 16(%eax)
